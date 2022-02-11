@@ -61,11 +61,13 @@ class _StoryPageState extends State<StoryPage> {
                       storyBrain.nextStory(1);
                     });
                   },
-                  child: Text(
-                    storyBrain.getChoice1(),
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 20.0,
+                  child: Center(
+                    child: Text(
+                      storyBrain.getChoice1(),
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 20.0,
+                      ),
                     ),
                   ),
                 ),
@@ -87,11 +89,13 @@ class _StoryPageState extends State<StoryPage> {
                         storyBrain.nextStory(2);
                       });
                     },
-                    child: Text(
-                      storyBrain.getChoice2(),
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 20.0,
+                    child: Center(
+                      child: Text(
+                        storyBrain.getChoice2(),
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 20.0,
+                        ),
                       ),
                     ),
                   ),
